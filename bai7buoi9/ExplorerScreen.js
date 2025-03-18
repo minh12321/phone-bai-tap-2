@@ -22,7 +22,32 @@ const categories = [
     image: "https://tse4.mm.bing.net/th?id=OIP.OvLU3z2b6vcj7AQ3fNm4wAHaE8&pid=Api&P=0&h=180",
   },
   {
-    id: 3,
+    id: 6,
+    name: "Steak",
+    image: "https://tse4.mm.bing.net/th?id=OIP.KfHhc89xIFhQAQ8YLrAm_wHaFj&pid=Api&P=0&h=180",
+  },
+  {
+    id: 5,
+    name: "Steak",
+    image: "https://tse4.mm.bing.net/th?id=OIP.KfHhc89xIFhQAQ8YLrAm_wHaFj&pid=Api&P=0&h=180",
+  },
+  {
+    id: 4,
+    name: "Steak",
+    image: "https://tse4.mm.bing.net/th?id=OIP.KfHhc89xIFhQAQ8YLrAm_wHaFj&pid=Api&P=0&h=180",
+  },
+  {
+    id: 7,
+    name: "Steak",
+    image: "https://tse4.mm.bing.net/th?id=OIP.KfHhc89xIFhQAQ8YLrAm_wHaFj&pid=Api&P=0&h=180",
+  },
+  {
+    id: 8,
+    name: "Steak",
+    image: "https://tse4.mm.bing.net/th?id=OIP.KfHhc89xIFhQAQ8YLrAm_wHaFj&pid=Api&P=0&h=180",
+  },
+  {
+    id: 9,
     name: "Steak",
     image: "https://tse4.mm.bing.net/th?id=OIP.KfHhc89xIFhQAQ8YLrAm_wHaFj&pid=Api&P=0&h=180",
   },
@@ -142,10 +167,13 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 10,
+    paddingBottom:0,
   },
   categoryCard: {
     alignItems: "center",
     marginRight: 15,
+    height:20,
+    marginBottom:-320
   },
   categoryImage: {
     width: 150,
@@ -173,6 +201,7 @@ const styles = StyleSheet.create({
     padding: 10,
     marginRight: 10,
     position: "relative",
+    height:200,
   },
   popularImage: {
     width: "100%",
